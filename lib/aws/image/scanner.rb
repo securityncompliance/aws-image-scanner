@@ -6,7 +6,9 @@ module Aws
   module Image
     module Scanner
       class Error < StandardError; end
-      # Your code goes here...
+      def run
+        "testing runner"
+      end
     end
   end
 end
