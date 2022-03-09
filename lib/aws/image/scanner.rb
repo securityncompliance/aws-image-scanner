@@ -6,7 +6,7 @@ module Aws
   module Image
     module Scanner
       class Error < StandardError; end
-      def run
+      def self.run
         "testing runner"
       end
     end
